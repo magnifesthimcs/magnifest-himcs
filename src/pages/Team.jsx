@@ -59,7 +59,7 @@ const teamData = [
     id: 4,
     name: 'Gargi Singh',
     role: 'Cultural Head',
-    image: '/assets/team/IMG-20250323-WA0004.jpg',
+    image: '/assets/team/WhatsApp Image 2025-03-29 at 22.13.25_e73ff624.jpg',
     bio: 'Gargi manages all cultural performances and competitions, with a background in music and performing arts.'
   },
   {
