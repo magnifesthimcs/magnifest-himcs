@@ -75,9 +75,9 @@ const Register = () => {
             />
           </div>
 
-          <div className="mt-8 text-center text-gray-600 dark:text-gray-300">
+          {/* <div className="mt-8 text-center text-gray-600 dark:text-gray-300">
             <p>Having trouble with registration? Contact us at <a href="mailto:support@magnifest2025.com" className="text-primary hover:underline">support@magnifest2025.com</a></p>
-          </div>
+          </div> */}
         </div>
       </div>
     </motion.div>

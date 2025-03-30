@@ -58,7 +58,7 @@ const teamData = [
   {
     id: 4,
     name: 'Gargi Singh',
-    role: 'Cultural Head',
+    role: 'Cultural Events Head',
     image: '/assets/team/WhatsApp Image 2025-03-29 at 22.13.25_e73ff624.jpg',
     bio: 'Gargi manages all cultural performances and competitions, with a background in music and performing arts.'
   },
@@ -93,7 +93,7 @@ const teamData = [
   {
     id: 9,
     name: 'Aditi Agarwal',
-    role: 'Management Head',
+    role: 'Management Events Head',
     image: '/assets/team/WhatsApp Image 2025-03-26 at 13.22.16_65ae4be2.jpg',
     bio: 'Aditi coordinates and manages the overall administrative functions of Magnifest 2025, ensuring seamless organizational operations.'
   }

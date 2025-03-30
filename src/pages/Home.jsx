@@ -118,7 +118,7 @@ const Home = () => {
           >
             <div className="flex items-center text-white">
               <FaCalendarAlt className="mr-2 text-primary" />
-              <span>April 18-19, 2025</span>
+              <span>April 21-22, 2025</span>
             </div>
             <div className="hidden md:block w-2 h-2 rounded-full bg-primary"></div>
             <div className="flex items-center text-white">
@@ -156,12 +156,12 @@ const Home = () => {
         </div>
 
         <div className="absolute bottom-10 left-0 right-0 flex justify-center">
-          <motion.div
+          {/* <motion.div
             className="animate-bounce"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2 }}
-          >
+          > */}
             <a
               href="#about"
               className="text-white flex flex-col items-center"
@@ -182,7 +182,7 @@ const Home = () => {
                 />
               </svg>
             </a>
-          </motion.div>
+          {/* </motion.div> */}
         </div>
       </section>
 
