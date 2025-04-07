@@ -9,6 +9,9 @@ const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false)
   const location = useLocation()
 
+  const openRulebook = () => {
+    window.open('/assets/RULE-BOOK-25.pdf', '_blank');
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -144,6 +147,16 @@ const Navbar = () => {
               >
                 Register Now
               </Link>
+              {/* Add View Rule Book button */}
+              <button
+                className="btn-secondary mt-2"
+                onClick={() => {
+                  openRulebook();
+                  closeMenu();
+                }}
+              >
+                View Rule Book
+              </button>
             </div>
           </motion.div>
         )}
