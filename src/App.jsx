@@ -41,32 +41,46 @@ function App() {
   if (loading) {
     return (
       <div className="fixed inset-0 flex items-center justify-center bg-gray-900">
-      <div className="text-center">
-        {/* Logo Image */}
-        <div className="mb-8">
-          <div className="w-40 h-40 mx-auto flex items-center justify-center">
-            <img 
-              src="/logo pic.png" 
-              alt="Magnifest Logo" 
-              className="rounded-xs shadow-lg"
-            />
+        <div className="text-center">
+          {/* Title Sponsor Heading */}
+          <h2 className="text-xl font-semibold text-white mb-4">TITLE SPONSOR</h2>
+          
+          {/* Sponsor Logo */}
+          <div className="mb-8">
+            <div className="w-32 h-32 mx-auto flex items-center justify-center">
+              <img 
+                src="/sponsor pic.png" 
+                alt="Title Sponsor Logo" 
+                className="rounded-xs shadow-lg"
+              />
+            </div>
+          </div>
+          
+          {/* Event Logo */}
+          <div className="mb-6">
+            <div className="w-40 h-40 mx-auto flex items-center justify-center">
+              <img 
+                src="/logo pic.png" 
+                alt="Magnifest Logo" 
+                className="rounded-xs shadow-lg"
+              />
+            </div>
+          </div>
+          
+          {/* Event Title */}
+          <h1 
+            className="text-4xl font-bold text-white mb-4"
+            style={{ opacity: pulseOpacity, transition: 'opacity 0.7s ease-in-out' }}
+          >
+            MAGNIFEST <span className="text-purple-500">2025</span>
+          </h1>
+          
+          {/* Underline */}
+          <div className="w-48 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full overflow-hidden">
+            <div className="h-full w-full bg-white rounded-full animate-pulse"></div>
           </div>
         </div>
-        
-        {/* Title */}
-        <h1 
-          className="text-4xl font-bold text-white mb-4"
-          style={{ opacity: pulseOpacity, transition: 'opacity 0.7s ease-in-out' }}
-        >
-          MAGNIFEST <span className="text-purple-500">2025</span>
-        </h1>
-        
-        {/* Underline */}
-        <div className="w-48 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full overflow-hidden">
-          <div className="h-full w-full bg-white rounded-full animate-pulse"></div>
-        </div>
       </div>
-    </div>
     )
   }
 
