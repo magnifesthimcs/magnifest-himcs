@@ -43,11 +43,11 @@ function App() {
       <div className="fixed inset-0 flex items-center justify-center bg-gray-900">
         <div className="text-center">
           {/* Title Sponsor Heading */}
-          <h2 className="text-xl font-semibold text-white mb-4">TITLE SPONSOR</h2>
+          <h2 className="text-base font-semibold text-white mb-4">TITLE SPONSOR</h2>
           
           {/* Sponsor Logo */}
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto flex items-center justify-center">
+            <div className="w-20 h-20 mx-auto flex items-center justify-center">
               <img 
                 src="/sponsor pic.png" 
                 alt="Title Sponsor Logo" 
