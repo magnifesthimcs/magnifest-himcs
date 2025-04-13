@@ -238,7 +238,7 @@ const Schedule = () => {
 
         {/* <div className="flex justify-center mb-12" data-aos="fade-up" data-aos-delay="200">
           <div className="inline-flex rounded-md shadow-sm bg-gray-100 dark:bg-gray-800 p-1">
-            {days.map((day) => (
+            {days.map((day) => (  
               <button
                 key={day}
                 className={`px-6 py-3 text-sm font-medium rounded-md transition-colors ${
