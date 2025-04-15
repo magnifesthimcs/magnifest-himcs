@@ -236,7 +236,7 @@ const Schedule = () => {
           Plan your Magnifest 2025 experience with our detailed schedule
         </p>
 
-        {/* <div className="flex justify-center mb-12" data-aos="fade-up" data-aos-delay="200">
+        <div className="flex justify-center mb-12" data-aos="fade-up" data-aos-delay="200">
           <div className="inline-flex rounded-md shadow-sm bg-gray-100 dark:bg-gray-800 p-1">
             {days.map((day) => (  
               <button
@@ -294,7 +294,7 @@ const Schedule = () => {
               </motion.div>
             ))}
           </div>
-        </div> */}
+        </div>
 
         <div className="text-center mt-16" data-aos="fade-up">
           <button className="btn-outline" onClick={openSchedule}>

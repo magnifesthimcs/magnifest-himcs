@@ -5,51 +5,33 @@ import 'swiper/css'
 const sponsors = [
   {
     id: 1,
-    name: 'TechCorp',
-    logo: 'https://placehold.co/200x100/4F46E5/FFFFFF?text=TechCorp',
-    type: 'Platinum'
+    name: 'Hum Tum Electronics',
+    logo: '/assets/sponsors/sponsor pic.png',
+    type: 'Title'
   },
   {
     id: 2,
-    name: 'InnovateLabs',
-    logo: 'https://placehold.co/200x100/EC4899/FFFFFF?text=InnovateLabs',
-    type: 'Gold'
+    name: 'Coca Cola',
+    logo: '/assets/sponsors/2.jpg',
+    type: 'Beverage Partner'
   },
   {
     id: 3,
-    name: 'FutureWorks',
-    logo: 'https://placehold.co/200x100/3B82F6/FFFFFF?text=FutureWorks',
-    type: 'Gold'
+    name: 'Pride Academy',
+    logo: '/assets/sponsors/1.jpg',
+    type: 'Presenting'
   },
   {
     id: 4,
-    name: 'CreativeMinds',
-    logo: 'https://placehold.co/200x100/10B981/FFFFFF?text=CreativeMinds',
-    type: 'Silver'
+    name: 'BM Computers',
+    logo: '/assets/sponsors/3.jpg',
+    type: 'Presenting'
   },
   {
     id: 5,
-    name: 'DigitalSolutions',
-    logo: 'https://placehold.co/200x100/F59E0B/FFFFFF?text=DigitalSolutions',
-    type: 'Silver'
-  },
-  {
-    id: 6,
-    name: 'NextGen',
-    logo: 'https://placehold.co/200x100/6366F1/FFFFFF?text=NextGen',
-    type: 'Silver'
-  },
-  {
-    id: 7,
-    name: 'GlobalTech',
-    logo: 'https://placehold.co/200x100/8B5CF6/FFFFFF?text=GlobalTech',
-    type: 'Bronze'
-  },
-  {
-    id: 8,
-    name: 'SmartSystems',
-    logo: 'https://placehold.co/200x100/EC4899/FFFFFF?text=SmartSystems',
-    type: 'Bronze'
+    name: 'Pixel Truth',
+    logo: '/assets/sponsors/4.jpg',
+    type: 'Presenting'
   }
 ]
 

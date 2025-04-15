@@ -351,11 +351,11 @@ const Home = () => {
             <SponsorSlider />
           </div>
 
-          <div className="text-center mt-12" data-aos="fade-up">
+          {/* <div className="text-center mt-12" data-aos="fade-up">
             <Link to="/sponsors" className="btn-outline">
               Become a Sponsor
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
