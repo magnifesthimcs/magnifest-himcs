@@ -231,11 +231,11 @@ const Home = () => {
             </div>
 
 
-            <div className="mt-12">
+            {/* <div className="mt-12">
               <Link to="/about" className="btn-outline">
                 Learn More
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
